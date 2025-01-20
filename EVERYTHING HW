@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Text Transform</title>
+        <style>
+            div{width: 500px;
+                height: 200px;
+                background-color: aqua;
+                border: 10px dotted rgb(199, 189, 54);}
+
+            #mydiv{transform: rotateX(132deg);
+                   transform: rotateZ(180deg);}
+            
+            .style1{color:red; font-family: fantasy;}
+            .style2{color:blue; font-family: Arial, Helvetica, sans-serif;}
+            .style3{color:green; font-family: cursive;}
+            .style4{color:rgb(255, 0, 212); font-family: 'Times New Roman', Times, serif;}
+            
+        </style>
+    </head>
+    <body>
+        <h1 class="style1">Typography!!</h1><hr><hr>
+        <h2 class="style2">Hello I am Nikhil!!</h2><hr><hr>
+        <h3 class="style3">I love coding!!</h3><hr><hr>
+        <h4 class="style4">Text Styles!!</h4><hr><hr>
+        
+        
+    <div>
+        This is a Weird Effect That I Created!<hr>I Know, This is Crazy<hr>Also Funny<hr>This Is Going To Be Great!!!!<hr>Cool Boxes Made By Nikhil!!!<hr>Subscribe To my Youtube Channel Nikkul Da Pikkul!!!
+    </div><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+    <div id="mydiv">
+        This is a Weird Effect That I Created!<hr>I Know, This is Crazy
+        <hr>Also Funny
+        <hr>This Is Going To Be Great!!!!<hr>Cool Boxes Made By Nikhil!!!
+        <hr>Subscribe To my Youtube Channel Nikkul Da Pikkul!!!
+    </div>
+    </body>
+</html>
